@@ -1,0 +1,6 @@
+Import('*')
+
+target = ['#output/zip/test.zip']
+source = ['#ouput/paper/test.pdf']
+
+env.Zip(target, source)
