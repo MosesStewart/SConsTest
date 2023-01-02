@@ -1,4 +1,4 @@
-Import('*')
+env = Environment()
 
 target = ['#output/paper/test.pdf']
 source = ['#source/paper/test.tex',
