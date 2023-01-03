@@ -1,0 +1,9 @@
+/drive
+/datastore
+/temp
+
+*.aux
+*.bcf
+*.fls
+*.xml
+/output/paper/text.log
