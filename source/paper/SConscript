@@ -1,7 +1,8 @@
-env = Environment()
+import os
+
+env = Environment(ENV = {'PATH' : os.environ['PATH']})
 
 target = ['#output/paper/test.pdf']
-source = ['#source/paper/test.tex',
-          '#source/figures/important_figure.tex']
+source = ['#source/paper/test.tex']
 
 env.PDF(target, source)
